@@ -1,0 +1,16 @@
+{% extends "home.html" %}
+{% block main %}
+<table border="2">
+    {% for key, value in dictInfo.items() %}
+
+    <tr>
+       <th> {{ key }} </th>
+       <td> {{ value }} </td>
+    </tr>
+    
+    {% endfor %}
+</table>
+<img src='D:\intern(bluechipAI)\Reinforcement Learning\Trading bot\trading bot web app\templates\books_read.png' alt="Graph"> </th>
+    
+    
+{% endblock main %}
